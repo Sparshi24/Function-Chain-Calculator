@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import FunctionCard from './components/FunctionCard';
 import { FaDotCircle } from 'react-icons/fa';
 
-
 const App = () => {
 	const [inputValue, setInputValue] = useState(0);
 	const [outputValue, setOutputValue] = useState(0);
